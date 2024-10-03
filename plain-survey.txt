@@ -1,0 +1,27 @@
+
+ Plan for Survey Form
+
+1. Event Feedback Survey
+   - **Title:** Event Feedback Survey
+   - **Form Elements:**
+     - Event Name: Text input
+     - Your Name: Text input (with validation)
+     - Overall Rating: Dropdown select
+     - Recommendation: Radio buttons (Yes/No)
+     - Additional Comments: Textarea
+     - Submit Button
+
+   2. Employee Satisfaction Survey
+   - **Title:** Employee Satisfaction Survey
+   - **Form Elements:**
+     - Employee Name: Text input (with validation)
+     - Department Name: Text input (with validation)
+     - Job Satisfaction: Radio buttons (Very Satisfied to Very Dissatisfied)
+     - Work Environment Rating: Dropdown select
+     - Suggestions for Improvement: Textarea
+     - Submit Button
+
+ 
+
+4. Submission Handling
+   - Decide on submission method
