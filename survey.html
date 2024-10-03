@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surveys</title>
+</head>
+<body>
+    <h1>Event Feedback Survey</h1>
+    <form>
+        <fieldset>
+            <legend>Event Details</legend>
+            <div>
+                <label for="event-name">Event Name:</label><br>
+                <input type="text" id="event-name" name="event-name" placeholder="Enter the event name" required>
+            </div>
+            <div>
+                <label for="your-name">Your Name:</label><br>
+                <input type="text" id="your-name" name="your-name" placeholder="Enter your name" pattern="[A-Za-z\s]+" title="Only letters are allowed" required>
+            </div>
+            <div>
+                <label for="rating">Overall Rating:</label><br>
+                <select id="rating" name="rating" required>
+                    <option value="" disabled selected>Select a rating</option>
+                    <option value="excellent">Excellent</option>
+                    <option value="good">Good</option>
+                    <option value="moderate">Moderate</option>
+                    <option value="bad">Bad</option>
+                </select>
+            </div>
+            <br>
+            <label>Would you recommend this event to others?</label><br>
+            <input type="radio" id="recommend-yes" name="recommend" value="yes" required>
+            <label for="recommend-yes">Yes</label><br>
+            <input type="radio" id="recommend-no" name="recommend" value="no">
+            <label for="recommend-no">No</label>
+            <br><br>
+            <div>
+                <label for="comments">Additional Comment:</label><br>
+                <textarea id="comments" name="comments" placeholder="Share your thoughts..." maxlength="250"></textarea>
+            </div>
+            <br>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </fieldset>
+    </form>
+    <hr>
+
+    <h1>Employee Satisfaction Survey</h1>
+    <form>
+        <fieldset>
+            <legend>Employee Details</legend>
+            <div>
+                <label for="employee-name">Employee Name:</label><br>
+                <input type="text" id="employee-name" name="employee-name" placeholder="Enter employee name" pattern="[A-Za-z\s]+" title="Only letters are allowed" required>
+            </div>
+            <div>
+                <label for="department-name">Department Name:</label><br>
+                <input type="text" id="department-name" name="department-name" placeholder="Enter department name" pattern="[A-Za-z\s]+" required>
+            </div>
+            <br>
+            <p>How satisfied are you with your job?</p>
+            <input type="radio" id="very-satisfied" name="job-satisfaction" value="very-satisfied" required>
+            <label for="very-satisfied">Very Satisfied</label><br>
+            <input type="radio" id="satisfied" name="job-satisfaction" value="satisfied">
+            <label for="satisfied">Satisfied</label><br>
+            <input type="radio" id="neutral" name="job-satisfaction" value="neutral">
+            <label for="neutral">Neutral</label><br>
+            <input type="radio" id="dissatisfied" name="job-satisfaction" value="dissatisfied">
+            <label for="dissatisfied">Dissatisfied</label><br>
+            <input type="radio" id="very-dissatisfied" name="job-satisfaction" value="very-dissatisfied">
+            <label for="very-dissatisfied">Very Dissatisfied</label>
+            <br><br>
+            <div>
+                <label for="environment-rating">How would you rate the work environment?</label><br>
+                <select id="environment-rating" name="environment-rating" required>
+                    <option value="" disabled selected>Select a rating</option>
+                    <option value="excellent">Excellent</option>
+                    <option value="good">Good</option>
+                    <option value="moderate">Moderate</option>
+                    <option value="bad">Bad</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="improvement-suggestions">Suggestions for Improvement:</label><br>
+                <textarea id="improvement-suggestions" name="improvement-suggestions" placeholder="Provide your suggestions..." maxlength="250"></textarea>
+            </div>
+            <br>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </fieldset>
+    </form>
+
+</body>
+</html>
