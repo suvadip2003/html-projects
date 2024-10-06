@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionnaire Website</title>
+</head>
+<body>
+    <!-- Header Section Start -->
+    <header>
+        <h1>Website Design Questionnaire</h1>
+        <p>Please fill out this questionnaire to help us better understand your project requirements.</p>
+    </header>
+    <!-- Header Section End -->
+
+    <!-- Main Content Start -->
+    <main>
+        
+        <!-- General Information Section Start -->
+        <fieldset>
+            <legend>General Information</legend>
+            <!-- Name Input Start -->
+            <label for="name">Name:</label><br>
+            <input type="text" name="name" id="name"><br>
+            <!-- Name Input End -->
+
+            <!-- Email Input Start -->
+            <label for="email">Email:</label><br>
+            <input type="email" name="email" id="email"><br>
+            <!-- Email Input End -->
+
+            <!-- Company Input Start -->
+            <label for="company">Company:</label><br>
+            <input type="text" name="company" id="company"><br>
+            <!-- Company Input End -->
+        </fieldset>
+        <!-- General Information Section End -->
+
+        <!-- Project Details Section Start -->
+        <fieldset>
+            <legend>Project Details</legend>
+
+            <!-- Project Type Dropdown Start -->
+            <label for="project-type">Project Type:</label>
+            <select name="project-type" id="project-type">
+                <option value="" disabled selected>Select Project Type</option>
+                <option value="website">Website</option>
+                <option value="web-application">Web Application</option>
+                <option value="e-commerce">E-Commerce</option>
+                <option value="other">Other</option>
+            </select><br>
+            <!-- Project Type Dropdown End -->
+
+            <!-- Project Description Start -->
+            <label for="project-description">Project Description:</label><br>
+            <textarea name="project-description" id="project-description" placeholder="Describe your project..."></textarea><br>
+            <!-- Project Description End -->
+
+            <!-- Target Audience Start -->
+            <label for="target-audience">Target Audience:</label><br>
+            <input type="text" name="target-audience" id="target-audience" placeholder="Describe your target audience"><br>
+            <!-- Target Audience End -->
+
+        </fieldset>
+        <!-- Project Details Section End -->
+
+        <!-- Design Preferences Section Start -->
+        <fieldset>
+            <legend>Design Preferences</legend>
+
+            <!-- Color Scheme Start -->
+            <label for="color-scheme">Color Scheme:</label><br>
+            <input type="text" name="color-scheme" id="color-scheme" placeholder="e.g., Blue, White"><br>
+            <!-- Color Scheme End -->
+
+            <!-- Font Preferences Start -->
+            <label for="font-preferences">Font Preferences:</label><br>
+            <input type="text" name="font-preferences" id="font-preferences" placeholder="e.g., Arial, Sans-serif"><br>
+            <!-- Font Preferences End -->
+
+            <!-- Style Preferences Start -->
+            <label for="style-preferences">Style Preferences:</label><br>
+            <input type="text" name="style-preferences" id="style-preferences" placeholder="e.g., Minimalist, Modern"><br>
+            <!-- Style Preferences End -->
+
+        </fieldset>
+        <!-- Design Preferences Section End -->
+
+        <!-- Additional Information Section Start -->
+        <fieldset>
+            <legend>Additional Information</legend>
+
+            <!-- Budget Input Start -->
+            <label for="budget">Budget:</label><br>
+            <input type="text" name="budget" id="budget" placeholder="e.g., $5000"><br>
+            <!-- Budget Input End -->
+
+            <!-- Timeline Input Start -->
+            <label for="timeline">Timeline:</label><br>
+            <input type="text" name="timeline" id="timeline" placeholder="e.g., 3 months"><br>
+            <!-- Timeline Input End -->
+
+            <!-- Additional Notes Start -->
+            <label for="additional-notes">Additional Notes:</label><br>
+            <textarea name="additional-notes" id="additional-notes" placeholder="Any additional notes..."></textarea><br><br>
+            <!-- Additional Notes End -->
+
+        </fieldset>
+        <!-- Additional Information Section End -->
+
+    </main>
+    <!-- Main Content End -->
+
+    <!-- Footer Section Start -->
+    <footer>
+        <!-- Submit Button Start -->
+        <button type="submit">Submit Questionnaire</button><br>
+        <!-- Submit Button End -->
+
+        <!-- Footer Text Start -->
+        &copy;2023 Questionnaire. All rights reserved.
+        <!-- Footer Text End -->
+    </footer>
+    <!-- Footer Section End -->
+
+    <!--Changes made:
+    
+1.Added <fieldset> to group related form elements in each section (General Information, Project Details, Design Preferences, and Additional Information).
+2.Used the <legend> tag inside each <fieldset> to provide a label for the form section.
+ 3.Add also placeholder   -->
+    
+</body>
+</html>
